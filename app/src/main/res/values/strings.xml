@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">As Gaelige</string>
+    <string name="hello">Hello = Dia Dhuit</string>
+    <string name="how_are_you">How are you? = Conas atá tú?</string>
+    <string name="goodbye">Goodbye = Slán</string>
+    <string name="you_are_welcome">You are Welcome = Tá fáilte romhat</string>
+    <string name="thank_you">Thank you = Go raibh maith agat</string>
+    <string name="good_morning">Good morning = Maidin Mhaith</string>
+    <string name="i_am_sorry">I am sorry = Tá brón orm</string>
+    <string name="i_am">I am .. = Is mise ..</string>
+</resources>
