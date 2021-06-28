@@ -8,4 +8,18 @@
     <string name="good_morning">Good morning = Maidin Mhaith</string>
     <string name="i_am_sorry">I am sorry = Tá brón orm</string>
     <string name="i_am">I am .. = Is mise ..</string>
+    <string name="phrases">Phrases</string>
+    <string name="colors">Colors</string>
+    <string name="animals">Animals</string>
+    <string name="bird">bird = éan</string>
+    <string name="elephant">elephant = eilifint</string>
+    <string name="horse">horse = capall</string>
+    <string name="duck">duck = lacha</string>
+    <string name="mouse">mouse = luch</string>
+    <string name="bear">bear = béar</string>
+    <string name="deer">deer = fia</string>
+    <string name="dog">dog = madra</string>
+    <string name="cat">cat = cat</string>
+    <string name="rabbit">rabbit = coinín</string>
+    <string name="fox">fox = sionnach</string>
 </resources>
