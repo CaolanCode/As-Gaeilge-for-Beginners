@@ -10,16 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AsGaelige">
         <activity
-            android:name=".Animals"
-            android:parentActivityName=".MainActivity">
+            android:name=".Months"
+            android:parentActivityName=".MainActivity" />
 
-        </activity>
+        <activity
+            android:name=".Animals"
+            android:parentActivityName=".MainActivity" />
+
         <activity
             android:name=".Colors"
             android:parentActivityName=".MainActivity" />
+
         <activity
             android:name=".Phrases"
             android:parentActivityName=".MainActivity" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
