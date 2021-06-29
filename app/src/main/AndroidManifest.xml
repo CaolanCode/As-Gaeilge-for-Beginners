@@ -9,22 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AsGaelige">
+        <activity android:name=".Questions"></activity>
         <activity
             android:name=".Months"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".Animals"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".Colors"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".Phrases"
             android:parentActivityName=".MainActivity" />
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

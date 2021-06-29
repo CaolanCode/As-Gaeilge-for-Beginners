@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     private Button color;
     private Button animal;
     private Button month;
+    private Button question;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +49,14 @@ public class MainActivity extends AppCompatActivity {
                 openMonths();
             }
         });
+
+        question = (Button)findViewById(R.id.question_button);
+        question.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openQuestions();
+            }
+        });
     }
 
     public void openPhrases() {
@@ -67,6 +76,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openMonths() {
         Intent intent = new Intent(this, Months.class);
+        startActivity(intent);
+    }
+
+    public void openQuestions() {
+        Intent intent = new Intent(this, Questions.class);
         startActivity(intent);
     }
 }

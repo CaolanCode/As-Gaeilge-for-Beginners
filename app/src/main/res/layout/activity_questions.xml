@@ -4,136 +4,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Animals">
+    tools:context=".Questions">
 
     <TextView
-        android:id="@+id/éan"
+        android:id="@+id/háit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/bird"
-        android:textSize="20dp"
+        android:text="@string/where"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
-        android:id="@+id/eilifint"
+        android:id="@+id/cheist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/elephant"
-        android:textSize="20dp"
+        android:text="@string/question"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/éan" />
-
+        app:layout_constraintTop_toBottomOf="@id/háit" />
 
     <TextView
-        android:id="@+id/capall"
+        android:id="@+id/uair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/horse"
-        android:textSize="20dp"
+        android:text="@string/time"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/eilifint" />
-
+        app:layout_constraintTop_toBottomOf="@id/cheist" />
 
     <TextView
-        android:id="@+id/lacha"
+        android:id="@+id/bhfuilSí"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/duck"
-        android:textSize="20dp"
+        android:text="@string/whereShe"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/capall" />
-
+        app:layout_constraintTop_toBottomOf="@id/uair" />
 
     <TextView
-        android:id="@+id/luch"
+        android:id="@+id/cónaí"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/mouse"
-        android:textSize="20dp"
+        android:text="@string/living"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lacha" />
-
+        app:layout_constraintTop_toBottomOf="@id/bhfuilSí" />
 
     <TextView
-        android:id="@+id/béar"
+        android:id="@+id/fáth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/bear"
-        android:textSize="20dp"
+        android:text="@string/why"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/luch" />
-
+        app:layout_constraintTop_toBottomOf="@id/cónaí" />
 
     <TextView
-        android:id="@+id/fia"
+        android:id="@+id/mhead"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/deer"
-        android:textSize="20dp"
+        android:text="@string/howMany"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/béar" />
-
+        app:layout_constraintTop_toBottomOf="@id/fáth" />
 
     <TextView
-        android:id="@+id/madra"
+        android:id="@+id/bhfuilSiad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/dog"
-        android:textSize="20dp"
+        android:text="@string/whereThey"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fia" />
-
+        app:layout_constraintTop_toBottomOf="@id/mhead" />
 
     <TextView
-        android:id="@+id/cat"
+        android:id="@+id/itheann"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/cat"
-        android:textSize="20dp"
+        android:text="@string/eat"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/madra" />
-
-
-    <TextView
-        android:id="@+id/coinín"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/rabbit"
-        android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cat" />
-
-
-    <TextView
-        android:id="@+id/sionnach"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/fox"
-        android:textSize="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/coinín" />
+        app:layout_constraintTop_toBottomOf="@id/bhfuilSiad" />
 </androidx.constraintlayout.widget.ConstraintLayout>

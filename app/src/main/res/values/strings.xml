@@ -23,4 +23,15 @@
     <string name="rabbit">rabbit = coinín</string>
     <string name="fox">fox = sionnach</string>
     <string name="months">Months</string>
+    <string name="please">please = le do thoil</string>
+    <string name="questions">Questions</string>
+    <string name="eat">What does he eat? = Céard a itheann sé?</string>
+    <string name="whereThey">Where are they? = Cá bhfuil siad?</string>
+    <string name="howMany">How many do you have? = Cé mhéad atá agat?</string>
+    <string name="why">Why? = Cén fáth?</string>
+    <string name="living">Where is she living? = Cá bhfuil sí ina cónaí?</string>
+    <string name="whereShe">Where is she? = Cá bhfuil sí?</string>
+    <string name="time">What time? = Cén uair?</string>
+    <string name="question">What is the question? = Cad é an cheist?</string>
+    <string name="where">Where? = Cá háit?</string>
 </resources>
