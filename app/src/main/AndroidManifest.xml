@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AsGaelige">
         <activity
-            android:name=".Questions"
+            android:name=".Food"
             android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Questions"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Months"
             android:parentActivityName=".MainActivity" />

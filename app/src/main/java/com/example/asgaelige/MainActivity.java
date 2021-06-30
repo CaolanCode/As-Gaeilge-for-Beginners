@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private Button animal;
     private Button month;
     private Button question;
+    private Button food;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +58,14 @@ public class MainActivity extends AppCompatActivity {
                 openQuestions();
             }
         });
+
+        food = (Button)findViewById(R.id.food_button);
+        food.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openFood();
+            }
+        });
     }
 
     public void openPhrases() {
@@ -81,6 +90,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openQuestions() {
         Intent intent = new Intent(this, Questions.class);
+        startActivity(intent);
+    }
+
+    public void openFood() {
+        Intent intent = new Intent(this, Food.class);
         startActivity(intent);
     }
 }
