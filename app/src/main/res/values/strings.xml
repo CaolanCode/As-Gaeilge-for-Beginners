@@ -11,19 +11,19 @@
     <string name="phrases">Phrases</string>
     <string name="colors">Colors</string>
     <string name="animals">Animals</string>
-    <string name="bird">bird = éan</string>
-    <string name="elephant">elephant = eilifint</string>
-    <string name="horse">horse = capall</string>
-    <string name="duck">duck = lacha</string>
-    <string name="mouse">mouse = luch</string>
-    <string name="bear">bear = béar</string>
-    <string name="deer">deer = fia</string>
-    <string name="dog">dog = madra</string>
-    <string name="cat">cat = cat</string>
-    <string name="rabbit">rabbit = coinín</string>
-    <string name="fox">fox = sionnach</string>
+    <string name="bird">Bird = Éan</string>
+    <string name="elephant">Elephant = Eilifint</string>
+    <string name="horse">Horse = Capall</string>
+    <string name="duck">Duck = Lacha</string>
+    <string name="mouse">Mouse = Luch</string>
+    <string name="bear">Bear = Béar</string>
+    <string name="deer">Deer = Fia</string>
+    <string name="dog">Dog = Madra</string>
+    <string name="cat">Cat = Cat</string>
+    <string name="rabbit">Rabbit = Coinín</string>
+    <string name="fox">Fox = Sionnach</string>
     <string name="months">Months</string>
-    <string name="please">please = le do thoil</string>
+    <string name="please">Please = Le do thoil</string>
     <string name="questions">Questions</string>
     <string name="eat">What does he eat? = Céard a itheann sé?</string>
     <string name="whereThey">Where are they? = Cá bhfuil siad?</string>
