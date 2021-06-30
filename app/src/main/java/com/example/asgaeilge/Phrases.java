@@ -1,16 +1,16 @@
-package com.example.asgaelige;
+package com.example.asgaeilge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Months extends AppCompatActivity {
+public class Phrases extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_months);
+        setContentView(R.layout.activity_phrases);
 
-        this.setTitle("Months/Míonna");
+        this.setTitle(getString(R.string.frásaí));
     }
 }

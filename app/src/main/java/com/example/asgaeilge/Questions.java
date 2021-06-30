@@ -1,16 +1,16 @@
-package com.example.asgaelige;
+package com.example.asgaeilge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Food extends AppCompatActivity {
+public class Questions extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_food);
+        setContentView(R.layout.activity_questions);
 
-        this.setTitle("Food/Bia");
+        this.setTitle(getString(R.string.ceistanna));
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.asgaelige">
+    package="com.example.asgaeilge">
 
     <application
         android:allowBackup="true"
@@ -10,24 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AsGaelige">
         <activity
-            android:name=".Food"
-            android:parentActivityName=".MainActivity"/>
+            android:name="com.example.asgaeilge.Food"
+            android:parentActivityName="com.example.asgaeilge.MainActivity"/>
         <activity
-            android:name=".Questions"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.example.asgaeilge.Questions"
+            android:parentActivityName="com.example.asgaeilge.MainActivity" />
         <activity
-            android:name=".Months"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.example.asgaeilge.Months"
+            android:parentActivityName="com.example.asgaeilge.MainActivity" />
         <activity
-            android:name=".Animals"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.example.asgaeilge.Animals"
+            android:parentActivityName="com.example.asgaeilge.MainActivity" />
         <activity
-            android:name=".Colors"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.example.asgaeilge.Colors"
+            android:parentActivityName="com.example.asgaeilge.MainActivity" />
         <activity
-            android:name=".Phrases"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+            android:name="com.example.asgaeilge.Phrases"
+            android:parentActivityName="com.example.asgaeilge.MainActivity" />
+        <activity android:name="com.example.asgaeilge.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

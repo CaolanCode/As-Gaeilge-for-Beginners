@@ -1,16 +1,16 @@
-package com.example.asgaelige;
+package com.example.asgaeilge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Questions extends AppCompatActivity {
+public class Colors extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_questions);
+        setContentView(R.layout.activity_colors);
 
-        this.setTitle("Questions/Ceistanna");
+        this.setTitle(getString(R.string.dathanna));
     }
 }

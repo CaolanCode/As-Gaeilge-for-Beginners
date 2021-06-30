@@ -1,16 +1,16 @@
-package com.example.asgaelige;
+package com.example.asgaeilge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Colors extends AppCompatActivity {
+public class Months extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_colors);
+        setContentView(R.layout.activity_months);
 
-        this.setTitle("Colors/Dathanna");
+        this.setTitle(getString(R.string.míonna));
     }
 }

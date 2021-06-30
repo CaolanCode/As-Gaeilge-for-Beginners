@@ -1,16 +1,16 @@
-package com.example.asgaelige;
+package com.example.asgaeilge;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Animals extends AppCompatActivity {
+public class Food extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_animals);
+        setContentView(R.layout.activity_food);
 
-        this.setTitle("Animals/Animhi");
+        this.setTitle(getString(R.string.bia));
     }
 }

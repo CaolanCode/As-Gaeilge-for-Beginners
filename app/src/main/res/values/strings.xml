@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">As Gaelige</string>
+    <string name="app_name">As Gaeilge</string>
     <string name="hello">Hello = Dia Dhuit</string>
     <string name="how_are_you">How are you? = Conas atá tú?</string>
     <string name="goodbye">Goodbye = Slán</string>
@@ -57,4 +57,10 @@
     <string name="pink">Pink = Bándearg</string>
     <string name="yellow">Yellow = Buí</string>
     <string name="orange">Orange = Oráiste</string>
+    <string name="animhi">Animals/Animhi</string>
+    <string name="dathanna">Colors/Dathanna</string>
+    <string name="bia">Food/Bia</string>
+    <string name="míonna">Months/Míonna</string>
+    <string name="frásaí">Phrases/Frásaí</string>
+    <string name="ceistanna">Questions/Ceistanna</string>
 </resources>
