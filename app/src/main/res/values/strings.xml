@@ -47,4 +47,14 @@
     <string name="broccoli">Broccoli = Brocailí</string>
     <string name="bacon">Bacon = Bágún</string>
     <string name="soup">Soup = Anraith</string>
+    <string name="red">Red = Dearg</string>
+    <string name="green">Green = Glas</string>
+    <string name="blue">Blue = Gorm</string>
+    <string name="white">White = Bán</string>
+    <string name="brown">Brown = Donn</string>
+    <string name="black">Black = Dubh</string>
+    <string name="gray">Gray = Laith</string>
+    <string name="pink">Pink = Bándearg</string>
+    <string name="yellow">Yellow = Buí</string>
+    <string name="orange">Orange = Oráiste</string>
 </resources>
