@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".Questions">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/where"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,6 +26,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/question"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/háit" />
@@ -35,6 +38,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/time"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cheist" />
@@ -46,6 +50,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/whereShe"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/uair" />
@@ -57,6 +62,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/living"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/bhfuilSí" />
@@ -68,6 +74,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/why"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cónaí" />
@@ -79,6 +86,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/howMany"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/fáth" />
@@ -90,6 +98,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/whereThey"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mhead" />
@@ -101,6 +110,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/eat"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/bhfuilSiad" />

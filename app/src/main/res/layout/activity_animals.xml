@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".Animals">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/bird"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,6 +27,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/elephant"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/éan" />
@@ -37,6 +40,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/horse"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/eilifint" />
@@ -49,6 +53,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/duck"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/capall" />
@@ -61,6 +66,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/mouse"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lacha" />
@@ -73,6 +79,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/bear"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/luch" />
@@ -86,6 +93,7 @@
         android:text="@string/deer"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/béar" />
 
@@ -97,6 +105,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/dog"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fia" />
@@ -109,6 +118,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/cat"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/madra" />
@@ -121,6 +131,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/rabbit"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cat" />
@@ -133,6 +144,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/fox"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/coinín" />

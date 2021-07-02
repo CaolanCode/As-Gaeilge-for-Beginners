@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".Colors">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/red"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,6 +26,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/green"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dearg" />
@@ -35,6 +38,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/blue"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/glas" />
@@ -46,6 +50,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/white"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gorm" />
@@ -57,6 +62,7 @@
         android:layout_margin="20dp"
         android:text="@string/brown"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bán" />
@@ -68,6 +74,7 @@
         android:layout_margin="20dp"
         android:text="@string/black"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/donn" />
@@ -79,6 +86,7 @@
         android:layout_margin="20dp"
         android:text="@string/gray"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dubh" />
@@ -90,6 +98,7 @@
         android:layout_margin="20dp"
         android:text="@string/pink"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/laith" />
@@ -101,6 +110,7 @@
         android:layout_margin="20dp"
         android:text="@string/yellow"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bándearg" />
@@ -112,6 +122,7 @@
         android:layout_margin="20dp"
         android:text="@string/orange"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buí" />

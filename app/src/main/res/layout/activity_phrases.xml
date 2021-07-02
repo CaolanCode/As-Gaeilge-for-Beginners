@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".Phrases">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/hello"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,6 +26,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/how_are_you"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/dia" />
@@ -35,6 +38,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/goodbye"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/conas" />
@@ -46,6 +50,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/you_are_welcome"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/slán" />
@@ -57,6 +62,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/thank_you"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome" />
@@ -68,6 +74,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/good_morning"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/raibh" />
@@ -79,6 +86,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/i_am_sorry"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/maidin" />
@@ -90,6 +98,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/i_am"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/brón" />
@@ -102,6 +111,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/please"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mise" />

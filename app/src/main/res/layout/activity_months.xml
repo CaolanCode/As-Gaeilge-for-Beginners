@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".Months">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_margin="20dp"
         android:text="January = Eanáir"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,6 +27,7 @@
         android:layout_margin="20dp"
         android:text="February = Feabhra"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/eanáir" />
@@ -37,6 +40,7 @@
         android:layout_margin="20dp"
         android:text="March = Márta"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/feabhra" />
@@ -49,6 +53,7 @@
         android:layout_margin="20dp"
         android:text="April = Aibreáin"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/márta" />
@@ -61,6 +66,7 @@
         android:layout_margin="20dp"
         android:text="May = Bealtaine"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aibreáin" />
@@ -73,6 +79,7 @@
         android:layout_margin="20dp"
         android:text="June = Meitheamh"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bealtaine" />
@@ -85,6 +92,7 @@
         android:layout_margin="20dp"
         android:text="July = Lúil"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/meitheamh" />
@@ -97,6 +105,7 @@
         android:layout_margin="20dp"
         android:text="August = Lúnasa"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lúil" />
@@ -109,6 +118,7 @@
         android:layout_margin="20dp"
         android:text="September = Meán Fómhair"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lunasa" />
@@ -121,6 +131,7 @@
         android:layout_margin="20dp"
         android:text="October = Deireadh Fómhair"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fómhair" />
@@ -133,6 +144,7 @@
         android:layout_margin="20dp"
         android:text="November = Mí na Samhna"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/deireadh" />
@@ -145,6 +157,7 @@
         android:layout_margin="20dp"
         android:text="December = Nollaig"
         android:textSize="20dp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/samhna" />

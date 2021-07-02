@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".Food">
 
     <TextView
@@ -13,6 +14,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/apple"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,6 +26,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/beef"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/úll" />
@@ -35,6 +38,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/chicken"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/mairteoil" />
@@ -46,6 +50,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/fruit"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/sicín" />
@@ -57,6 +62,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/fish"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/torthaí" />
@@ -68,6 +74,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/tomato"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/iasc" />
@@ -79,6 +86,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/pork"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tráta" />
@@ -90,6 +98,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/meat"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/muiceoil" />
@@ -101,6 +110,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/steak"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/feoil" />
@@ -112,6 +122,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/broccoli"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/stéig" />
@@ -123,6 +134,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/bacon"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/brocailí" />
@@ -134,6 +146,7 @@
         android:layout_marginTop="20dp"
         android:text="@string/soup"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/bágún" />
